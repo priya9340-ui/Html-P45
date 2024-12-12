@@ -1,0 +1,52 @@
+body{
+    /* background-color: rgb(99, 120, 140); */
+     background-color: rgba(39, 0, 197, 0.2); 
+    /* alpha 0-1 *//
+    /* background-color: #fff; */
+}
+
+.mypara{
+    background-color: yellow;
+    color: blueviolet;
+    font-size: 34px;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: italic;
+    text-decoration: underline;
+    font-weight: 900;
+    /* last 900 */
+    text-transform: capitalize;
+    /* uppercase, lowercase, capitalize */
+    letter-spacing: 10px;
+    word-spacing: 20px;
+     /* border */
+     border-width: 10px;
+     border-style: solid;
+     /* soild, dotted, dashed */
+     border-color: green;
+
+     /* shorthand */
+     border: 10px solid black;
+
+   
+}
+
+.new{
+    height: 200px;
+    border-top: 10px hotpink dotted;
+    border-left: 10px bisque dashed;
+    border-right: 10px gray solid;
+    border-bottom: 10px darkorange dotted;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 40px;
+ }
+
+ #circle{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    text-align: center;
+ }

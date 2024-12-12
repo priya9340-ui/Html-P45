@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    /* img progerty */
+    height: 100vh;
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* shorthand image repeat position size */
+    /* background: url(/2img.jpg) no-repeat center center/cover; */
+    
+}
+
+.box{
+    border: 10px solid red;
+    /* all side */
+    margin: 10px;
+    /* top/bottom left/right */
+    /* margin: 20px 10px; */
+    /* top right bottom left */
+    /* margin: 10px 20px 30px 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 40px; */
+
+     /* all side */
+     padding: 10px;
+     /* top/bottom left/right */
+     /* padding: 20px 10px; */
+     /* top right bottom left */
+     /* padding: 10px 20px 30px 40px;
+     -top: 10px;
+     padding-bottom: 20px;
+     padding-right: 30px;
+     padding-left: 40px; */
+
+}

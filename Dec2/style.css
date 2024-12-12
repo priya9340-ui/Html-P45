@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 10px solid red;
+    padding: 20px;
+}
+
+.container{
+    background-color: aqua;
+    display: flex;
+    /* row row-reverse column column-reverse */
+    flex-direction: row;
+    gap: 20px;
+    /* flex-start, flex-end, center, space- around, space-between, space-evenly  */
+    justify-content: space-around;
+    /* justify content work along main axis & main along flex direction */
+
+}
+
+.container .item{
+    border: 3px solid blue;
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse ;
+}

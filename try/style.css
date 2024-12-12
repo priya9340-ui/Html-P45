@@ -1,0 +1,30 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* id selector */
+#myheading{
+    background-color: cadetblue;
+    color: black;
+}
+#mypara{
+    background-color: cadetblue;
+    color: black;
+}
+/* class selector */
+.common{
+    background-color: darkgreen;
+    color: red;
+}
+
+.div{
+    font-size: 70px;
+}
+img{
+    height: 350px;
+    width: 400px;
+}
+
